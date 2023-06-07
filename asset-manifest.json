@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/my-website/static/css/main.69cc610f.css",
-    "main.js": "/my-website/static/js/main.bf73c710.js",
+    "main.js": "/my-website/static/js/main.c2b9ca0c.js",
+    "static/media/star-wars-ghibli-style.mp4": "/my-website/static/media/star-wars-ghibli-style.b90c77f2c0c92fac9c2a.mp4",
     "static/media/Ghibli-placeholder.png": "/my-website/static/media/Ghibli-placeholder.d5bf5a910bf0fd036d60.png",
     "static/media/LOL.jpg": "/my-website/static/media/LOL.e59a1c6ecdfc7e631883.jpg",
     "static/media/overwatch.webp": "/my-website/static/media/overwatch.217f71705d42a88d4bbf.webp",
@@ -21,10 +22,10 @@
     "index.html": "/my-website/index.html",
     "static/media/volume_off.svg": "/my-website/static/media/volume_off.ca68c1e1297d60f4a63a3973eaee3fa1.svg",
     "main.69cc610f.css.map": "/my-website/static/css/main.69cc610f.css.map",
-    "main.bf73c710.js.map": "/my-website/static/js/main.bf73c710.js.map"
+    "main.c2b9ca0c.js.map": "/my-website/static/js/main.c2b9ca0c.js.map"
   },
   "entrypoints": [
     "static/css/main.69cc610f.css",
-    "static/js/main.bf73c710.js"
+    "static/js/main.c2b9ca0c.js"
   ]
 }
