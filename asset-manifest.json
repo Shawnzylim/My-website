@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bf311247.css",
+    "main.js": "/static/js/main.91eb192a.js",
+    "static/media/Ghibli-placeholder.png": "/static/media/Ghibli-placeholder.d5bf5a910bf0fd036d60.png",
+    "static/media/VaderVsAshoka.jpg": "/static/media/VaderVsAshoka.99d51a4f70d17e1c4b2a.jpg",
+    "static/media/lava-vert.jpg": "/static/media/lava-vert.c2a811e173afcdac05a9.jpg",
+    "static/media/star_wars_galaxy_of_heroes_new_loading_screen.jpg": "/static/media/star_wars_galaxy_of_heroes_new_loading_screen.c69e280caf80715a41bd.jpg",
+    "static/media/light-side.jpg": "/static/media/light-side.afd1a07490692f29c1bc.jpg",
+    "static/media/tatooine.jpg": "/static/media/tatooine.0e0368deb90709e81b0b.jpg",
+    "static/media/DeathStar-VmWB.ttf": "/static/media/DeathStar-VmWB.4fe76636d2bf8f577a2c.ttf",
+    "static/media/r2d2.png": "/static/media/r2d2.b5b6b525c2ac599b7396.png",
+    "static/media/death-star.png": "/static/media/death-star.6ae1dcd469527a99f210.png",
+    "static/media/logo.svg": "/static/media/logo.6c2cff8a6a57b38148201708e3e8667a.svg",
+    "static/media/volume_on.svg": "/static/media/volume_on.5084f715b0c45729954da87a563b964f.svg",
+    "index.html": "/index.html",
+    "static/media/volume_off.svg": "/static/media/volume_off.ca68c1e1297d60f4a63a3973eaee3fa1.svg",
+    "main.bf311247.css.map": "/static/css/main.bf311247.css.map",
+    "main.91eb192a.js.map": "/static/js/main.91eb192a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf311247.css",
+    "static/js/main.91eb192a.js"
+  ]
+}
