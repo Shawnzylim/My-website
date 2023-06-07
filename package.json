@@ -1,7 +1,7 @@
 {
   "name": "react-website-yt-1",
   "version": "0.1.0",
-  "homepage": "https://Shawnzylim.github.io",
+  "homepage": "https://Shawnzylim.github.io/",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
