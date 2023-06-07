@@ -1,0 +1,221 @@
+.contact-main-container {
+    background: url(/public/images/tatooine.jpg) center center/cover no-repeat;
+}
+
+.contact-container, .text-container {
+    padding: 1rem 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+    
+  .text-container > h1 {
+    font-size: 48px;
+    color: #242424;
+    font-family: 'death-star';
+  }
+
+  .text-container > p {
+    font-size: 24px;
+    color: #242424;
+    font-family: 'death-star';
+    text-align: center;
+  }
+
+  .footer-subscription {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url(/public/images/r2d2.png) center center/cover no-repeat;
+    padding: 250px;
+    height: 700px;
+    width: 520px;
+  }
+  .footer-subscription-container {
+    margin-top: 46px ;
+    background-color: #e7e7e7;
+    padding: 6px 10px 12px;
+    width: 310px;
+  }
+  
+  .footer-subscription-container > h1 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #242424;
+    font-family: 'death-star';
+  }
+  
+  .footer-subscription-text {
+    margin-bottom: 16px;
+    font-size: 20px;
+  }
+  
+  .input-label {
+    display: block;
+    color: blue;
+    justify-content: left;
+    text-align: left;
+    font-size: 16px;
+  }
+
+  .footer-input {
+    width: 280px;
+    display: block;
+    padding: 8px 16px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    margin-bottom: 16px;
+    border: 1px solid #fff;
+    font-family: 'PT Sans', sans-serif;
+  }
+
+  .footer-input-message {
+    width: 280px;
+    height: 100px;
+    display: block;
+    padding: 8px 16px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    margin-bottom: 10px;
+    border: 1px solid #fff;
+    resize: none;
+    font-family: 'PT Sans', sans-serif;
+  }
+  
+  .footer-links {
+    height: 350px;
+    width: 100%;
+    max-width: 550px;
+    display: flex;
+    justify-content: center;
+    margin-left: 10%;
+    align-items: center;
+    background-color: #d2852d;
+    border-radius: 10px;
+  }
+  
+  .footer-link-wrapper {
+    display: flex;
+    position: relative;
+  }
+  
+  .footer-link-items {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 16px;
+    text-align: left;
+    width: 250px;
+    box-sizing: border-box;
+    justify-content: center;
+  }
+  
+  .footer-link-items h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    font-family: 'death-star';
+    color: #242424;
+  }
+  
+  .footer-link-items a, .footer-link-items > h3 {
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+  }
+  
+  .footer-link-items a:hover {
+    color: #242424;
+    transition: 0.3s ease-out;
+  }
+
+  .footer-link-items i {
+    margin-right: 1rem;
+  }
+
+  .fa.fa-map-marker:before {
+    content: "\f3c5";
+    width: 20px;
+    display: block;
+  }  
+
+  .footer-link-items img {
+    margin-top: 0.5rem;
+  }
+  
+  .footer-email-form h2 {
+    margin-bottom: 2rem;
+  }
+  
+  .footer-input::placeholder, .footer-input-message::placeholder {
+    color: #b1b1b1;
+  }
+
+  Button {
+    padding: 8px 20px;
+    border-radius: 5px;
+  }
+
+  .input-areas .btn--primary {
+    background: #190cca;
+    color: #ffffff;
+  }
+
+  .input-areas .btn--primary:hover {
+    background: transparent;
+    color: #000000;
+    transition: all 0.3s ease-out;
+}
+  
+  @media screen and (max-width: 920px) {
+    .contact-container {
+      padding: 4rem 0 2rem 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .footer-subscription{
+        padding: 0;
+    }
+
+    .footer-links {
+      padding-top: 2rem;
+      margin-left: 0;
+      margin-top: 30px;
+    }
+  
+    .footer-input, .footer-input-message {
+      width: 100%;
+    }
+  
+    .btn {
+      width: 100%;
+    }
+  
+    .footer-link-wrapper {
+      flex-direction: column;
+      margin: 100px auto 120px;
+    }
+  }
+  
+  @media screen and (max-width: 540px) {
+    .footer-subscription{
+        width: 440px;
+    }
+  }

@@ -1,0 +1,6 @@
+@font-face {
+    font-family: "death-star";
+    src: local('death-star'), url("./fonts/death-star-font/DeathStar-VmWB.ttf") format('truetype');
+    font-weight: bold;
+}
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Saira+Extra+Condensed:500");

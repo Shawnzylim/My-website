@@ -1,0 +1,143 @@
+.text-scroller{
+  align-items: center;
+  background: url('../../public/images/scroll-background.png') center center/cover no-repeat;
+  color: rgb(229, 177, 58);
+  display: flex;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  height: 95vh;
+  justify-content: center;
+  line-height: 1.25;
+  overflow: hidden;
+  margin-top: -4%;
+}
+
+div[id="root"] {
+  width: 100%;
+}
+.container {
+    height: 80vh;
+    position: relative;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+  
+  .intro, 
+  .title {
+    left: 50%;
+    opacity: 0;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    z-index: 200;
+  }
+
+  .title {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 18rem;
+  }
+  
+  .intro p {
+    color: rgb(75, 213, 238);
+    font-size: 1.25rem;
+  }
+  
+  .container:before {
+    background: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 1) 0%,
+      rgba(0, 0, 0, 1) 20%,
+      rgba(0, 0, 0, 0) 40%,
+      rgba(0, 0, 0, 0) 100%
+    );
+    bottom: 0;
+    content: " ";
+    left: 0;
+    right: 0;
+    position: absolute;
+    top: 0;
+    z-index: 100;
+  }
+  
+  .crawl {
+    font-size: 300%;
+    bottom: 0;
+    height: 60rem;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%) perspective(300px) rotateX(28deg);
+    transform-origin: 50% 100%;
+    width: 90%;
+  }
+  
+  .content {
+    position: absolute;
+    top: 120%;
+  }
+  
+  .content > p{
+    font-size: 195%;
+  }
+
+  .episode-number {
+    font-weight: 600;
+    margin-bottom: 5rem;
+    text-align: center;
+  }
+  
+  .episode-title, .episode-end {
+    font-family: "Saira Extra Condensed", sans-serif;
+    font-size: 250%;
+    font-weight: 500;
+    line-height: 1;
+    margin-bottom: 7rem;
+    transform: scale(1, 1.5);
+    text-align: center;
+  }
+  
+  .content p {
+    font-weight: 700;
+    line-height: 1.33;
+    margin-bottom: 4rem;
+    text-align: justify;
+  }
+  
+  .play {
+    background: transparent;
+    border: 1px solid white;
+    z-index: 998;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    font-size: 2em;
+  }
+
+  .play:hover {
+    background: transparent;
+    color: #fff;
+    transition: all 0.3s ease-out;
+  }
+
+  .volume {
+    background: transparent;
+    border: 0;
+    bottom: -50px;
+    cursor: pointer;
+    right: 10px;
+    position: absolute;
+    z-index: 998;
+  }
+  
+  .volume img {
+    height: 24px;
+  }
+
+  @media screen and (max-width: 960px) {
+    .crawl {
+      font-size: 175%;
+    }
+  }

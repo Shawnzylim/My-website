@@ -1,0 +1,92 @@
+
+.timeline-container {
+    background-image: url('/public/images/lava-vert.jpg');
+    background-position: center;
+    background-size:contain ;
+  }
+
+  span {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+
+  .fa.fa-code-fork:before, .fa.fa-briefcase:before, .fa.fa-play:before   {
+    font-size: 2.2em;
+  }
+
+  ul {
+    margin-top: 5px;
+  }
+
+  li {
+    font-family: 'PT Sans', sans-serif;
+  }
+
+  .button-container {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: -10px;
+  }
+
+  .button-container .btn--outline{
+    background-color: #424242;
+  }
+
+  .button-container .btn--outline:hover{
+    background-color: white;
+    border: 1px solid black;
+  }
+
+  .vertical-timeline-element-content .vertical-timeline-element-date {
+    opacity: 1;
+    color: white;
+  }
+
+
+  @media only screen and (max-width: 1169px){
+    .button-container {
+      justify-content: left;
+      margin-bottom: 0;
+    }
+    .fa.fa-code-fork:before, .fa.fa-briefcase:before, .fa.fa-play:before   {
+      font-size: 1.5em;
+    }
+    .vertical-timeline-element-content .vertical-timeline-element-date {
+      color: #424242;
+    }
+  }
+
+  .github-corner svg {
+      z-index: 1000;
+  }
+  
+  .vertical-timeline-element-content {
+      color: black;
+  }
+  
+  .vertical-timeline-element--work .vertical-timeline-element-content {
+      border-top: 3px solid #2196f3;
+  }
+  
+  .vertical-timeline-element--education .vertical-timeline-element-content {
+      border-top: 3px solid red;
+  }
+
+  
+  /* CUSTOM LINE COLOR */
+  /* The line */
+  .vertical-timeline::before {
+    background: white;
+  }
+  
+  /* Icon container's border */
+  .vertical-timeline.vertical-timeline-custom-line .vertical-timeline-element--work .vertical-timeline-element-icon {
+    box-shadow: 0 0 0 4px #1976d2, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  .vertical-timeline.vertical-timeline-custom-line .vertical-timeline-element--education .vertical-timeline-element-icon {
+    box-shadow: 0 0 0 4px #c2185b, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
+  }
