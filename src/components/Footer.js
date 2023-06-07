@@ -28,10 +28,10 @@ function Footer() {
           <div class="social-media-wrap">
             <div class="footer-logo">
               <Link
-                to="/"
+                to="/my-website/"
                 className="social-logo"
                 onClick={() => {
-                  if (location.pathname === "/") {
+                  if (location.pathname === "/my-website/") {
                     scroll();
                   } else {
                     jump();

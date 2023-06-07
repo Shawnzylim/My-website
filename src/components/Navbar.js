@@ -47,11 +47,11 @@ function Navbar(props) {
       <nav className="navbar">
         <div className="navbar-container">
           <Link
-            to="/"
+            to="/my-website/"
             className="navbar-logo"
             onClick={() => {
               closeMobileMenu();
-              if (location.pathname === "/") {
+              if (location.pathname === "/my-website/") {
                 scroll();
               } else {
                 jump();
@@ -67,11 +67,11 @@ function Navbar(props) {
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
               <Link
-                to="/"
+                to="/my-website/"
                 className="nav-links"
                 onClick={() => {
                   closeMobileMenu();
-                  if (location.pathname === "/") {
+                  if (location.pathname === "/my-website/") {
                     scroll();
                   } else {
                     jump();
@@ -83,18 +83,18 @@ function Navbar(props) {
             </li>
             <li className="nav-item">
               <Link
-                to="/about-me"
+                to="/gaming"
                 className="nav-links"
                 onClick={() => {
                   closeMobileMenu();
-                  if (location.pathname === "/about-me") {
+                  if (location.pathname === "/gaming") {
                     scroll();
                   } else {
                     jump();
                   }
                 }}
               >
-                About
+                Gaming
               </Link>
             </li>
             <li className="nav-item">

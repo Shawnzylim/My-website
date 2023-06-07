@@ -9,7 +9,7 @@ import {
 } from "react-router-dom";
 import Home from "./components/pages/Home";
 import ContactMe from "./components/pages/ContactMe";
-import AboutMe from "./components/pages/AboutMe";
+import Gaming from "./components/pages/Gaming";
 import Projects from "./components/pages/Projects";
 import Footer from "./components/Footer";
 // import { CSSTransition, TransitionGroup } from "react-transition-group";
@@ -39,7 +39,7 @@ function App() {
         <Routes>
           <Route path="/my-website/" exact Component={Home} />
           <Route path="/contact-me" Component={ContactMe} />
-          <Route path="/about-me" Component={AboutMe} />
+          <Route path="/gaming" Component={Gaming} />
           <Route path="/projects" Component={Projects} />
         </Routes>
         <Footer />
