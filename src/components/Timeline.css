@@ -57,6 +57,9 @@
     .vertical-timeline-element-content .vertical-timeline-element-date {
       color: #424242;
     }
+    li {
+      margin-left: 8px;
+    }
   }
 
   .github-corner svg {
