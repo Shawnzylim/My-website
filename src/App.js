@@ -37,7 +37,7 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path="/" exact Component={Home} />
+          <Route path="/my-website/" exact Component={Home} />
           <Route path="/contact-me" Component={ContactMe} />
           <Route path="/about-me" Component={AboutMe} />
           <Route path="/projects" Component={Projects} />
