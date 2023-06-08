@@ -7,7 +7,7 @@
   
   .home,
   .contact-me,
-  .about-me,
+  .gaming,
   .projects {
     display: flex;
     height: 95vh;
@@ -25,7 +25,7 @@
     font-size: 100px;
   }
   
-  .about-me {
+  .gaming {
     background-image: url('/public/images/star_wars_galaxy_of_heroes_new_loading_screen.jpg');
     background-position: center;
     background-size: cover;
@@ -43,4 +43,13 @@
     color: #fff;
     font-size: 100px;
     font-family: "death-star", 'PT Sans', sans-serif;
+  }
+
+  @media screen and (max-width: 450px) {
+    .gaming {
+      font-size: 64px;
+    }
+    .projects {
+      font-size: 64px;
+    }
   }

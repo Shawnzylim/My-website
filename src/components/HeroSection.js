@@ -19,7 +19,7 @@ const HeroSection = ({ timelineRef }) => {
           className="btns"
           buttonStyle="btn--outline"
           buttonSize="btn--large"
-          where="/about-me"
+          where="/gaming"
         >
           ABOUT ME (BORING)
         </Button> */}

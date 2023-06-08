@@ -6,7 +6,7 @@ import Cards from "../Cards";
 export default function AboutMe() {
   return (
     <>
-      <h1 className="about-me">Gaming</h1>
+      <h1 className="gaming">Gaming</h1>
       <Cards />
     </>
 

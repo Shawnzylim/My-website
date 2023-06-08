@@ -128,3 +128,8 @@
       margin-bottom: 2rem;
     }
   }
+  @media screen and (max-width: 450px) {
+    .cards__item {
+      width: 300px;
+    }
+  }

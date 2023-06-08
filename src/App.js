@@ -22,7 +22,7 @@ import Footer from "./components/Footer";
 //       <CSSTransition key={location.key} timeout={500} classNames="page">
 //         <Routes location={location}>
 //           <Route index element={<Home />} />
-//           <Route path="/about-me" element={<AboutMe />} />
+//           <Route path="/gaming" element={<AboutMe />} />
 //           <Route path="/contact-me" element={<ContactMe />} />
 //           <Route path="/projects" element={<Projects />} />
 //         </Routes>
