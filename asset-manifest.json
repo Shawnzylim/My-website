@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/my-website/static/css/main.2a81181f.css",
-    "main.js": "/my-website/static/js/main.c2b9ca0c.js",
+    "main.css": "/my-website/static/css/main.730e434c.css",
+    "main.js": "/my-website/static/js/main.79cb7930.js",
     "static/media/star-wars-ghibli-style.mp4": "/my-website/static/media/star-wars-ghibli-style.b90c77f2c0c92fac9c2a.mp4",
     "static/media/Ghibli-placeholder.png": "/my-website/static/media/Ghibli-placeholder.d5bf5a910bf0fd036d60.png",
     "static/media/LOL.jpg": "/my-website/static/media/LOL.e59a1c6ecdfc7e631883.jpg",
@@ -21,11 +21,11 @@
     "static/media/volume_on.svg": "/my-website/static/media/volume_on.5084f715b0c45729954da87a563b964f.svg",
     "index.html": "/my-website/index.html",
     "static/media/volume_off.svg": "/my-website/static/media/volume_off.ca68c1e1297d60f4a63a3973eaee3fa1.svg",
-    "main.2a81181f.css.map": "/my-website/static/css/main.2a81181f.css.map",
-    "main.c2b9ca0c.js.map": "/my-website/static/js/main.c2b9ca0c.js.map"
+    "main.730e434c.css.map": "/my-website/static/css/main.730e434c.css.map",
+    "main.79cb7930.js.map": "/my-website/static/js/main.79cb7930.js.map"
   },
   "entrypoints": [
-    "static/css/main.2a81181f.css",
-    "static/js/main.c2b9ca0c.js"
+    "static/css/main.730e434c.css",
+    "static/js/main.79cb7930.js"
   ]
 }
