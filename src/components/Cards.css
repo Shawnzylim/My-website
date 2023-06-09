@@ -132,4 +132,11 @@
     .cards__item {
       width: 300px;
     }
+    .cards > h1 {
+      font-size: 2.5rem;
+    }
+    
+    .cards > h2 {
+      font-size: 1.1rem;
+    }
   }
