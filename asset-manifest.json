@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/my-website/static/css/main.cd66330c.css",
+    "main.css": "/my-website/static/css/main.6ea5ac96.css",
     "main.js": "/my-website/static/js/main.79cb7930.js",
     "static/media/star-wars-ghibli-style.mp4": "/my-website/static/media/star-wars-ghibli-style.b90c77f2c0c92fac9c2a.mp4",
     "static/media/Ghibli-placeholder.png": "/my-website/static/media/Ghibli-placeholder.d5bf5a910bf0fd036d60.png",
@@ -21,11 +21,11 @@
     "static/media/volume_on.svg": "/my-website/static/media/volume_on.5084f715b0c45729954da87a563b964f.svg",
     "index.html": "/my-website/index.html",
     "static/media/volume_off.svg": "/my-website/static/media/volume_off.ca68c1e1297d60f4a63a3973eaee3fa1.svg",
-    "main.cd66330c.css.map": "/my-website/static/css/main.cd66330c.css.map",
+    "main.6ea5ac96.css.map": "/my-website/static/css/main.6ea5ac96.css.map",
     "main.79cb7930.js.map": "/my-website/static/js/main.79cb7930.js.map"
   },
   "entrypoints": [
-    "static/css/main.cd66330c.css",
+    "static/css/main.6ea5ac96.css",
     "static/js/main.79cb7930.js"
   ]
 }
