@@ -141,3 +141,19 @@ div[id="root"] {
       font-size: 175%;
     }
   }
+
+  @media screen and (max-width: 450px) {
+    .intro p {
+      font-size: 0.7rem;
+    }
+
+    .crawl {
+      font-size: 90%;
+    }
+
+    .play {
+      font-size: 150%;
+      padding: 6px 12px;
+    }
+  }
+  
